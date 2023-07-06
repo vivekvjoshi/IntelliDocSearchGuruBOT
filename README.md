@@ -8,7 +8,7 @@ This script provides functionality for document processing and question answerin
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone [<repository-url>]https://github.com/vivekvjoshi/IntelliSearchGuruBOT.git)
 cd <repository-directory>
 ```
 
