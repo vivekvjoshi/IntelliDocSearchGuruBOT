@@ -68,7 +68,7 @@ PINECONE_INDEX_NAME=<your Index Name>
     - Use the `ask_with_memory(vector_store, question, chat_history=[])` function to have a conversation with the question-answering bot and maintain a chat history.
 
 ### Run the Application
-    - Execute the `Qna.py` script to run the document processing and question answering application.
+    - Execute the ` python Qna.py` script to run the document processing and question answering application.
 
 Refer to the script code for more details on the function usage and program flow.
 
