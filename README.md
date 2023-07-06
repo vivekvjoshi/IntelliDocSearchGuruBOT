@@ -1,7 +1,7 @@
 
 # Document Processing and Question Answering Script
 
-This script provides functionality for document processing and question answering using OpenAI models and Pinecone vector indexing.
+This script provides functionality for document processing and question answering using OpenAI models and Pinecone vector indexing. Its uses Langchain for assisting in building this LLM.
 
 ## Installation
 
