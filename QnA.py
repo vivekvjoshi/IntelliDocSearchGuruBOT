@@ -123,7 +123,7 @@ def ask_with_memory(vector_store, question, chat_history=[]):
     
 #Running the Program
 
-data = load_document("./docs/2023050195.pdf")
+data = load_document(os.environ.get("FILE"))
 #print(data[1].page_content)
 chunks = get_chunk_data(data=data)
 
@@ -134,7 +134,7 @@ print_embedding_cost(chunks)
 #delete_pinecone_index()
 
 #create embeddings
-vector_store=insert_or_fetch_embeddings("indian-constitution")
+vector_store=insert_or_fetch_embeddings(os.environ.get("PINECONE_INDEX_NAME"))
 
 chat_history=[]
 
